@@ -1,9 +1,13 @@
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
 
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+vim.o.clipboard = 'unnamedplus'
+
+vim.opt.cursorline = true
+vim.opt.scrolloff = 20
 
 -- Highlight when yanking (copying) text
 --  Try it with `yap` in normal mode
